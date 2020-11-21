@@ -72,9 +72,22 @@ See code file: [4.MultipleLinearRegression.sas](4.MultipleLinearRegression.sas)
 
 ### STEP 5: CREATE A LINEAR REGRESSION MODEL 
 
+Finally a simple linear regression model was produced using the PROC REG method to predict sales from radio advertising. 
+
+```
+PROC REG data=MIS543.M4_PRODUCTSALESADVERTISING alpha=0.05 
+		plots(only)=(diagnostics fitplot);
+	model sales=radio /;
+	RUN;
+```
+
+![](images/lin_regression.png)
+
+The results or the model show a statistically significant linear relationship (p < 0.0001) and an adjusted R-Sq value of 0.9494. The fit plot visualizes the strong positive linear relationship between the independent variable radio and the dependent variable sales.
 
 
-## Results
+
+## Summary
 
 First, descriptive statistics and plots were produced to understand the characteristics of each variable within the dataset. Second, correlation analysis was performed to identify the direction and strength of the linear relationships between each type of advertising medium and sales. Third, regression analysis was performed for the variables with had linear relationships with sales. Finally a regression equation was constructed from the model results which could be used to predict future sales based on different independent variable values.
 
