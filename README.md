@@ -18,6 +18,18 @@ PROC IMPORT datafile="/folders/myfolders/sasuser.v94/MIS543/M4/ad-sales.xlsx"
 RUN;
 ```
 
+The SAS table created from the spreadsheet include the following columns: OBS (observation); SALES (number of sales); RADIO (amount spent of radio advertising); PAPER (amount spent on newspaper advertising); TV (amount spent on television advertising); and POS (amount spend on point of sale advertising). 
+
+![datatable](/Users/janicegordon/Documents/github-repos/SAS-Advertising-Sales-Predictions/images/datatable.png)
+
+Next, summary statistics were created using PROC MEANS.
+
+```
+PROC MEANS; 
+    VAR sales radio paper TV POS;
+RUN;
+```
+
 
 
 ### STEP 2: IDENTIFY CORRELATIONS 
