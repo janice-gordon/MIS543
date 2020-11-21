@@ -91,5 +91,5 @@ See code file: [5.LinearRegression_SalesRadio.sas](5.LinearRegression_SalesRadio
 
 ## Summary
 
-First, data was imported from the spreadsheet and descriptive statistics were produced. Second.... to understand the characteristics of each variable within the dataset. Second, correlation analysis was performed to identify the direction and strength of the linear relationships between each type of advertising medium and sales. Third, regression analysis was performed for the variables with had linear relationships with sales. Finally a regression equation was constructed from the model results which could be used to predict future sales based on different independent variable values.
+First, data was imported from the sample spreadsheet and descriptive statistics were produced. Second visual exploration was done by producing a scatterplot matrix of all the variables. Third, correlation analysis was performed to identify the direction and strength of the linear relationships between each type of advertising medium and sales. Fourth, multiple regression analysis was performed for the variables radio and television with sales. Finally a linear regression model was created which could be used to predict future sales based on the amount spent on radio advertising.
 
