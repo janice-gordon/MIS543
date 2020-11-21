@@ -85,6 +85,8 @@ PROC REG data=MIS543.M4_PRODUCTSALESADVERTISING alpha=0.05
 
 The results or the model show a statistically significant linear relationship (p < 0.0001) and an adjusted R-Sq value of 0.9494. The fit plot visualizes the strong positive linear relationship between the independent variable radio and the dependent variable sales.
 
+![](images/fitplot.png)
+
 See code file: [5.LinearRegression_SalesRadio.sas](5.LinearRegression_SalesRadio.sas)
 
 ## Summary
