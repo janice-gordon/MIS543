@@ -58,13 +58,15 @@ RUN;
 
 The Pearson Correlation test shows that both radio and TV have strong positive correlations with sales, while paper has a weak negative correlation, and POS shows a very weak overall relationship with sales. 
 
+See code file: [3.CorrelationAnalysis.sas](3.CorrelationAnalysis.sas)
+
 ### STEP 4: PERFROM MULTIPLE REGRESSION
 
 Multiple regression was then performed using the SAS Linear Regression model utility using backward selection. The model selection removed the television variable, indicating that radio advertising was the best predictor of sales. 
 
 ![](images/mult-regression.png)
 
-
+See code file: [4.MultipleLinearRegression.sas](4.MultipleLinearRegression.sas)
 
 
 
