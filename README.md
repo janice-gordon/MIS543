@@ -85,9 +85,9 @@ PROC REG data=MIS543.M4_PRODUCTSALESADVERTISING alpha=0.05
 
 The results or the model show a statistically significant linear relationship (p < 0.0001) and an adjusted R-Sq value of 0.9494. The fit plot visualizes the strong positive linear relationship between the independent variable radio and the dependent variable sales.
 
-
+See code file: [5.LinearRegression_SalesRadio.sas](5.LinearRegression_SalesRadio.sas)
 
 ## Summary
 
-First, descriptive statistics and plots were produced to understand the characteristics of each variable within the dataset. Second, correlation analysis was performed to identify the direction and strength of the linear relationships between each type of advertising medium and sales. Third, regression analysis was performed for the variables with had linear relationships with sales. Finally a regression equation was constructed from the model results which could be used to predict future sales based on different independent variable values.
+First, data was imported from the spreadsheet and descriptive statistics were produced. Second.... to understand the characteristics of each variable within the dataset. Second, correlation analysis was performed to identify the direction and strength of the linear relationships between each type of advertising medium and sales. Third, regression analysis was performed for the variables with had linear relationships with sales. Finally a regression equation was constructed from the model results which could be used to predict future sales based on different independent variable values.
 
