@@ -30,7 +30,7 @@ PROC MEANS;
 RUN;
 ```
 
-
+![](images/means.png)
 
 ### STEP 2: IDENTIFY CORRELATIONS 
 
