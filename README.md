@@ -32,6 +32,10 @@ RUN;
 
 ![](images/means.png)
 
+To visualize data a scatterplot matrix was created using SAS's graphing utilities.
+
+![](images/scatterplot.png)
+
 ### STEP 2: IDENTIFY CORRELATIONS 
 
 ### STEP 3: PERFROM MULTIPLE REGRESSION
