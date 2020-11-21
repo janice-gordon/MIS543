@@ -60,6 +60,14 @@ The Pearson Correlation test shows that both radio and TV have strong positive c
 
 ### STEP 4: PERFROM MULTIPLE REGRESSION
 
+Multiple regression was then performed using the SAS Linear Regression model utility using backward selection. The model selection removed the television variable, indicating that radio advertising was the best predictor of sales. 
+
+![](images/mult-regression.png)
+
+
+
+
+
 ### STEP 5: CREATE A LINEAR REGRESSION MODEL 
 
 
