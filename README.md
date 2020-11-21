@@ -44,6 +44,20 @@ See code file [2.ScatterPlotMatrix.sas](2.ScatterPlotMatrix.sas)
 
 ### STEP 3: IDENTIFY CORRELATIONS 
 
+Next, the correlation was tested between each advertising method and sales using the PROC CORR procedure.
+
+```
+PROC CORR data=MIS543.M4_PRODUCTSALESADVERTISING pearson nosimple noprob 
+		plots=scatter(ellipse=prediction alpha=0.05);
+	var radio paper TV POS;
+	with sales;
+RUN;
+```
+
+![](images/corr.png)
+
+The Pearson Correlation test shows that both radio and TV have strong positive correlations with sales, while paper has a weak negative correlation, and POS shows a very weak overall relationship with sales. 
+
 ### STEP 4: PERFROM MULTIPLE REGRESSION
 
 ### STEP 5: CREATE A LINEAR REGRESSION MODEL 
