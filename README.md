@@ -20,7 +20,7 @@ RUN;
 
 The SAS table created from the spreadsheet include the following columns: OBS (observation); SALES (number of sales); RADIO (amount spent of radio advertising); PAPER (amount spent on newspaper advertising); TV (amount spent on television advertising); and POS (amount spend on point of sale advertising). 
 
-![datatable](/Users/janicegordon/Documents/github-repos/SAS-Advertising-Sales-Predictions/images/datatable.png)
+![datatable](images/datatable.png)
 
 Next, summary statistics were created using PROC MEANS.
 
