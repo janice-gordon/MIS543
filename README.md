@@ -9,6 +9,17 @@ The example uses data for sales of a single product which was advertised using d
 
 The data for this exercise was provided as a Microsoft Excel file, see [ad-sales.xlsx](ad-sales.xlsx) and was imported into SAS using the PROC IMPORT statement. 
 
+```
+PROC IMPORT datafile="/folders/myfolders/sasuser.v94/MIS543/M4/ad-sales.xlsx"
+	dbms=xlsx
+	out=MIS543.M4_PRODUCTSALESADVERTISING
+	replace;
+	getnames=yes;
+RUN;
+```
+
+
+
 ### STEP 2: IDENTIFY CORRELATIONS 
 
 ### STEP 3: PERFROM MULTIPLE REGRESSION
