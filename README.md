@@ -5,7 +5,7 @@ This project was was completed using the free [SAS University Edition](https://w
 
 The example uses data for sales of a single product which was advertised using different mediums over the period of twenty months. The goal was to predict which advertising method: point of sale, radio, television, or newspaper, had the greatest correlation with increased sales. 
 
-### STEP 1: IMPORT & EXPLORE DATA
+### STEP 1: IMPORT DATA
 
 The data for this exercise was provided as a Microsoft Excel file, see [ad-sales.xlsx](ad-sales.xlsx) and was imported into SAS using the PROC IMPORT statement. 
 
@@ -32,15 +32,21 @@ RUN;
 
 ![](images/means.png)
 
-To visualize data a scatterplot matrix was created using SAS's graphing utilities.
+See code file: [1.ImportData_SummaryStats.sas](1.ImportData_SummaryStats.sas)
+
+### STEP 2: VISUALIZE DATA
+
+To visualize data a scatterplot matrix was created using SAS's graphing utilities. 
 
 ![](images/scatterplot.png)
 
-### STEP 2: IDENTIFY CORRELATIONS 
+See code file [2.ScatterPlotMatrix.sas](2.ScatterPlotMatrix.sas) 
 
-### STEP 3: PERFROM MULTIPLE REGRESSION
+### STEP 3: IDENTIFY CORRELATIONS 
 
-### STEP 4: CREATE A LINEAR REGRESSION MODEL 
+### STEP 4: PERFROM MULTIPLE REGRESSION
+
+### STEP 5: CREATE A LINEAR REGRESSION MODEL 
 
 
 
